@@ -33,7 +33,7 @@ function App() {
       prev.map((prevTodo) =>
         prevTodo.id === id
           ? { ...prevTodo, completed: !prevTodo.completed }
-          : "prevTodo"
+          : prevTodo
       )
     );
   };
